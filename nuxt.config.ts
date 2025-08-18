@@ -22,9 +22,16 @@ export default defineNuxtConfig({
       meta: [
         { charset: "UTF-8" },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'A beautiful instagram clone built using Nuxt.js and Supabase' }
+        { name: 'description', content: 'A beautiful instagram clone built using Nuxt.js and Supabase' },
         { name: 'keywords', content: 'instagram, clone, nuxt, supabase' }
       ]
     }
+  },
+  components: {
+    dirs: [
+      '~/components/layout',
+      '~/components/posts',
+      '~/components/ui'
+    ]
   }
 })

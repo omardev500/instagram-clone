@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+:root {
+  --font-1: 'Dancing Script', monospace;
+  --font-2: 'Inter', monospace;
+}

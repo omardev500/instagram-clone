@@ -13,7 +13,6 @@ export const useStoriesStore = defineStore('stories', {
       const { data, error } = await supabase
         .from("stories")
         .select("*")
-        .order('created_at', { ascending: false })
       if (error) console.error("Error fetching from Stories: ", error)
       else this.stories = data || {}
       

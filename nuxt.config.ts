@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: {
-      'Inter': [400, 700],
+      'Roboto': [400, 500, 600],
       'Dancing Script': [400]
     }
   },
@@ -21,9 +21,10 @@ export default defineNuxtConfig({
       title: "Instagram Clone", // Default title
       meta: [
         { charset: "UTF-8" },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1.0, viewport-fit=cover' },
         { name: 'description', content: 'A beautiful instagram clone built using Nuxt.js and Supabase' },
-        { name: 'keywords', content: 'instagram, clone, nuxt, supabase' }
+        { name: 'keywords', content: 'instagram, clone, nuxt, supabase' },
+
       ]
     }
   },
@@ -31,7 +32,7 @@ export default defineNuxtConfig({
     dirs: [
       '~/components/layout',
       '~/components/posts',
-      '~/components/ui'
+      '~/components/ui',
     ]
   }
 })

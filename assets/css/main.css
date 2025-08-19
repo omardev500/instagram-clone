@@ -2,6 +2,11 @@
 
 :root {
   --font-1: 'Dancing Script', monospace;
-  --font-2: 'Inter', monospace;
+  --font-2: 'Roboto', monospace;
 }
-
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+#topNavbar {
+  padding-top: env(safe-area-inset-top, 20px)!important;
+}

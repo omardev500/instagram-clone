@@ -1,5 +1,5 @@
 <template>
-  <header class="flex items-center justify-between pt-6 px-3 pb-2">
+  <header id="topNavbar" class="flex items-center justify-between px-3 pb-4 fixed z-999 bg-white left-0 top-0 w-screen">
     <h1 class="text-3xl font-bold font-(family-name:--font-1)">Instagram</h1>
     <nav class="flex gap-4">
       <button class="cursor-pointer">

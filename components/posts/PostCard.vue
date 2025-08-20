@@ -76,10 +76,10 @@
       <font-awesome-icon icon="fa-solid fa-ellipsis" class="w-6 text-gray-500" />
     </div>
     <div>
-      <div v-if="imgSrc" class="h-[40vh]"> <!-- Images / Videos Container -->
+      <div v-if="imgSrc" class="h-[53vh]"> <!-- Images / Videos Container -->
         <img v-if="imgSrc" class="w-full h-full object-center object-cover" :src="imgSrc" />
       </div>
-      <div v-if="videoSrc" class="h-[48vh]">
+      <div v-if="videoSrc" class="h-[53vh]">
         <video controls class="w-full h-full">
           <source :src="videoSrc" :type="getVideoExt(videoSrc)">
           Sorry it seems that your browser doesn't support this video type.

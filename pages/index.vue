@@ -6,7 +6,7 @@
   
   useSeoMeta({
     title: 'Instagram Clone | Home Page',
-    description: 'Home Page in Nuxt.js & Supabase Instagram Clone',
+    description: 'Home Page in Nuxt.js & Supabase | Instagram Clone',
   });
   
 </script>
